@@ -1,6 +1,7 @@
 import requests
+import secrets
 
-TOKEN = "1221070278:AAH6ObFCU0Tq0ebjfgzcdHcqEYES6yC6i1Y"
+TOKEN = secrets.TELEGRAM
 BASE_URL = f"https://api.telegram.org/bot{TOKEN}/"
 CHANNEL_ID = "1216993479"
 
