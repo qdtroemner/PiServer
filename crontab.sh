@@ -21,5 +21,5 @@
 # For more information see the manual pages of crontab(5) and cron(8)
 # 
 # m h  dom mon dow   command
-*/15 * * * * python3 /home/pi/Documents/Quentin/Coding/Projects/PiServer/main.py
-0 */12 * * * python3 /home/pi/Documents/Quentin/Coding/Projects/PiServer/upkeep.py
+*/15 * * * * python3 /home/pi/Documents/Quentin/Coding/Projects/PiServer/src/main.py
+0 */12 * * * python3 /home/pi/Documents/Quentin/Coding/Projects/PiServer/src/upkeep.py
