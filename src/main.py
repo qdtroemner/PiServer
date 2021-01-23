@@ -4,7 +4,7 @@ import steam
 import requests
 import datetime
 
-target_price = 0.80
+target_price = 0.70
 current_price = steam.GetLowestPrice("Operation Broken Fang Case")
 
 if current_price <= target_price:
